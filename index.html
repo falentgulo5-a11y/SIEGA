@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIEGA - Program Studi Teknologi & Bisnis Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">SIEGA</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#fasilitas">Fasilitas</a></li>
+                <li><a href="#kegiatan">Kegiatan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+                <li><button class="dark-toggle" id="darkToggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di SIEGA</h1>
+            <p>Masa Depan Teknologi & Bisnis Digital</p>
+            <div class="cta-buttons">
+                <a href="#program" class="btn btn-primary">Jelajahi Program</a>
+                <a href="#kontak" class="btn btn-secondary">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profil Section -->
+    <section id="profil">
+        <div class="section-header fade-in">
+            <h2>Profil SIEGA</h2>
+            <p>Program Studi Inovatif yang Menggabungkan Teknologi, Bisnis, dan Akuntansi Modern</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-item fade-in">
+                <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+                <h3>Inovatif</h3>
+                <p>Kurikulum mengikuti perkembangan Industri 4.0</p>
+            </div>
+            <div class="feature-item fade-in">
+                <div class="feature-icon"><i class="fas fa-users"></i></div>
+                <h3>Dosen Profesional</h3>
+                <p>Pengajar berpengalaman dari industri</p>
+            </div>
+            <div class="feature-item fade-in">
+                <div class="feature-icon"><i class="fas fa-project-diagram"></i></div>
+                <h3>Project-Based</h3>
+                <p>Pembelajaran berbasis proyek nyata</p>
+            </div>
+            <div class="feature-item fade-in">
+                <div class="feature-icon"><i class="fas fa-certificate"></i></div>
+                <h3>Terakreditasi</h3>
+                <p>Program studi berkualitas dan terakreditasi</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program">
+        <div class="section-header fade-in">
+            <h2>Program Studi</h2>
+            <p>Pilih jalur karir masa depan Anda</p>
+        </div>
+
+        <div class="programs-grid">
+            <div class="program-card fade-in">
+                <div class="program-icon"><i class="fas fa-database"></i></div>
+                <h3>Sistem Informasi (SI)</h3>
+                <p>Fokus pada analisis sistem, database, dan enterprise system</p>
+                <ul class="program-features">
+                    <li>System Analyst</li>
+                    <li>Database Administrator</li>
+                    <li>IT Consultant</li>
+                    <li>ERP Specialist</li>
+                </ul>
+            </div>
+
+            <div class="program-card fade-in">
+                <div class="program-icon"><i class="fas fa-shopping-cart"></i></div>
+                <h3>E-Commerce (EC)</h3>
+                <p>Bisnis digital, digital marketing, dan marketplace building</p>
+                <ul class="program-features">
+                    <li>Digital Marketer</li>
+                    <li>E-Commerce Specialist</li>
+                    <li>Business Owner</li>
+                    <li>SEO Specialist</li>
+                </ul>
+            </div>
+
+            <div class="program-card fade-in">
+                <div class="program-icon"><i class="fas fa-gamepad"></i></div>
+                <h3>Game Teknologi (GT)</h3>
+                <p>Game design, game development, dan 2D/3D assets</p>
+                <ul class="program-features">
+                    <li>Game Developer</li>
+                    <li>Game Designer</li>
+                    <li>3D Animator</li>
+                    <li>Level Designer</li>
+                </ul>
+            </div>
+
+            <div class="program-card fade-in">
+                <div class="program-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Akuntansi Sistem Informasi (ASI)</h3>
+                <p>Akuntansi & sistem informasi, audit teknologi, ERP</p>
+                <ul class="program-features">
+                    <li>Accounting System Analyst</li>
+                    <li>IT Auditor</li>
+                    <li>Finance Tech Specialist</li>
+                    <li>ERP Consultant</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fasilitas Section -->
+    <section id="fasilitas">
+        <div class="section-header fade-in">
+            <h2>Fasilitas</h2>
+            <p>Fasilitas lengkap untuk mendukung pembelajaran</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-item fade-in">
+                <div class="feature-icon"><i class="fas fa-laptop-code"></i></div>
+                <h3>Lab Komputer</h3>
+                <p>Dilengkapi komputer modern dan software terkini</p>
+            </div>
+            <div class="feature-item fade-in">
+                <div class="feature-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                <h3>Ruang Kelas Digital</h3>
+                <p>Smart classroom dengan teknologi pembelajaran interaktif</p>
+            </div>
+            <div class="feature-item fade-in">
+                <div class="feature-icon"><i class="fas fa-film"></i></div>
+                <h3>Studio Multimedia</h3>
+                <p>Studio game development dan produksi multimedia</p>
+            </div>
+            <div class="feature-item fade-in">
+                <div class="feature-icon"><i class="fas fa-book"></i></div>
+                <h3>Perpustakaan Digital</h3>
+                <p>Akses ribuan jurnal dan e-book internasional</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kegiatan Section -->
+    <section id="kegiatan">
+        <div class="section-header fade-in">
+            <h2>Kegiatan & Prestasi</h2>
+            <p>Berbagai kegiatan dan prestasi mahasiswa SIEGA</p>
+        </div>
+
+        <div class="gallery-slider">
+            <div class="slider-container" id="sliderContainer">
+                <div class="slide" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800') center/cover">
+                    Tech Expo 2024
+                </div>
+                <div class="slide" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1511578314322-379afb476865?w=800') center/cover">
+                    Workshop Digital Marketing
+                </div>
+                <div class="slide" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800') center/cover">
+                    Kompetisi Game Development
+                </div>
+                <div class="slide" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800') center/cover">
+                    Seminar Fintech
+                </div>
+            </div>
+            <button class="slider-btn prev" onclick="moveSlide(-1)">❮</button>
+            <button class="slider-btn next" onclick="moveSlide(1)">❯</button>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak">
+        <div class="section-header fade-in">
+            <h2>Hubungi Kami</h2>
+            <p>Kami siap membantu menjawab pertanyaan Anda</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-item fade-in">
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                <h3>Email</h3>
+                <p>info@siega.ac.id</p>
+            </div>
+            <div class="contact-item fade-in">
+                <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                <h3>Telepon</h3>
+                <p>+62 812-3456-7890</p>
+            </div>
+            <div class="contact-item fade-in">
+                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <h3>Lokasi</h3>
+                <p>Semarang, Central Java, Indonesia</p>
+            </div>
+            <div class="contact-item fade-in">
+                <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+                <h3>Instagram</h3>
+                <p>@siega_official</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="#" class="btn btn-primary" style="background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white;">
+                <i class="fas fa-download"></i> Download Brosur SIEGA
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SIEGA - Program Studi Teknologi & Bisnis Digital. All Rights Reserved.</p>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/6281234567890" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
