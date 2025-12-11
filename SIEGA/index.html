@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIEGA - UNIKA Soegijapranata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">SIEGA UNIKA</div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#programs">Program</a></li>
+                <li><a href="#profile">Profil</a></li>
+                <li><a href="#curriculum">Kurikulum</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>🎓 Selamat Datang di SIEGA</h1>
+            <p>Universitas Katolik Soegijapranata</p>
+            <p style="font-size: 1.1rem; margin-top: 1rem;">Sistem Informasi · E-Commerce · Game Teknologi · Akuntansi Sistem Informasi</p>
+            <div class="cta-buttons">
+                <a href="#programs" class="btn btn-primary">Lihat Program SIEGA</a>
+                <a href="#contact" class="btn btn-outline">Daftar Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <h2 class="section-title">Program Studi SIEGA</h2>
+        <p class="section-subtitle">Pilih program yang sesuai dengan passion dan karirmu</p>
+        
+        <div class="programs-grid">
+            <div class="program-card">
+                <div class="program-icon">💻</div>
+                <h3>Sistem Informasi (SI)</h3>
+                <p>Menguasai analisis, desain, dan implementasi sistem informasi berbasis teknologi modern</p>
+                <ul>
+                    <li>Database Management</li>
+                    <li>Analisis Sistem</li>
+                    <li>Enterprise Information System</li>
+                    <li>Business Intelligence</li>
+                </ul>
+                <button class="btn btn-primary" onclick="showCurriculum('SI')">Lihat Kurikulum SI</button>
+            </div>
+
+            <div class="program-card">
+                <div class="program-icon">🛒</div>
+                <h3>E-Commerce (EC)</h3>
+                <p>Ahli dalam membangun dan mengelola bisnis digital yang sukses</p>
+                <ul>
+                    <li>Digital Marketing</li>
+                    <li>Marketplace Building</li>
+                    <li>Data Analytics</li>
+                    <li>E-Business Strategy</li>
+                </ul>
+                <button class="btn btn-primary" onclick="showCurriculum('EC')">Lihat Kurikulum EC</button>
+            </div>
+
+            <div class="program-card">
+                <div class="program-icon">🎮</div>
+                <h3>Game Teknologi (GT)</h3>
+                <p>Ciptakan game dan pengalaman interaktif yang menakjubkan</p>
+                <ul>
+                    <li>Game Design</li>
+                    <li>3D Modeling & Animation</li>
+                    <li>Game Engine Programming</li>
+                    <li>Virtual Reality</li>
+                </ul>
+                <button class="btn btn-primary" onclick="showCurriculum('GT')">Lihat Kurikulum GT</button>
+            </div>
+
+            <div class="program-card">
+                <div class="program-icon">📊</div>
+                <h3>Akuntansi Sistem Informasi (AKSI)</h3>
+                <p>Integrasi teknologi dan akuntansi untuk era digital</p>
+                <ul>
+                    <li>Audit Teknologi Informasi</li>
+                    <li>Enterprise Resource Planning</li>
+                    <li>Manajemen Keuangan Digital</li>
+                    <li>Accounting Information System</li>
+                </ul>
+                <button class="btn btn-primary" onclick="showCurriculum('AKSI')">Lihat Kurikulum AKSI</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="profile" id="profile">
+        <div class="profile-content">
+            <div class="profile-text">
+                <h2>Tentang SIEGA</h2>
+                <p><strong>SIEGA</strong> adalah gabungan dari 4 program studi unggulan di Universitas Katolik Soegijapranata yang fokus pada pengembangan talenta di bidang teknologi dan bisnis digital.</p>
+                
+                <h3 style="color: var(--primary); margin-top: 2rem;">Visi</h3>
+                <p>Menjadi pusat pendidikan teknologi informasi terkemuka yang menghasilkan lulusan berkualitas, berintegritas, dan siap bersaing di era digital global.</p>
+                
+                <h3 style="color: var(--primary); margin-top: 2rem;">Misi</h3>
+                <p>Menyelenggarakan pendidikan berkualitas dengan kurikulum berbasis industri, mendorong riset inovatif, dan mengembangkan karakter mahasiswa yang profesional dan humanis.</p>
+            </div>
+            
+            <div>
+                <h3 style="color: var(--dark); margin-bottom: 2rem; font-size: 1.8rem;">Nilai-Nilai UNIKA</h3>
+                <div class="values">
+                    <div class="value-item">
+                        <div style="font-size: 2.5rem;">🎯</div>
+                        <h4>Integritas</h4>
+                        <p style="color: #666;">Jujur dan bertanggung jawab</p>
+                    </div>
+                    <div class="value-item">
+                        <div style="font-size: 2.5rem;">⚡</div>
+                        <h4>Profesionalitas</h4>
+                        <p style="color: #666;">Kompeten dan berkualitas</p>
+                    </div>
+                    <div class="value-item">
+                        <div style="font-size: 2.5rem;">❤️</div>
+                        <h4>Humanisme</h4>
+                        <p style="color: #666;">Peduli dan melayani</p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 2rem; background: white; padding: 2rem; border-radius: 15px;">
+                    <h4 style="color: var(--primary); margin-bottom: 1rem;">Keunggulan SIEGA:</h4>
+                    <ul style="list-style: none;">
+                        <li style="padding: 0.5rem 0; color: #555;">✨ Dosen berpengalaman & profesional</li>
+                        <li style="padding: 0.5rem 0; color: #555;">✨ Kurikulum berbasis kebutuhan industri</li>
+                        <li style="padding: 0.5rem 0; color: #555;">✨ Project-based learning dengan kasus nyata</li>
+                        <li style="padding: 0.5rem 0; color: #555;">✨ Alumni bekerja di perusahaan top nasional & internasional</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section class="curriculum" id="curriculum">
+        <h2 class="section-title">Kurikulum</h2>
+        <p class="section-subtitle">Struktur pembelajaran yang komprehensif dan aplikatif</p>
+        
+        <div class="curriculum-selector">
+            <button class="curriculum-btn active" onclick="showCurriculum('SI')">Sistem Informasi</button>
+            <button class="curriculum-btn" onclick="showCurriculum('EC')">E-Commerce</button>
+            <button class="curriculum-btn" onclick="showCurriculum('GT')">Game Teknologi</button>
+            <button class="curriculum-btn" onclick="showCurriculum('AKSI')">AKSI</button>
+        </div>
+        
+        <div class="curriculum-content" id="curriculum-content">
+            <!-- Content will be dynamically loaded -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Hubungi Kami</h2>
+        <p>Siap bergabung dengan SIEGA? Hubungi kami untuk informasi lebih lanjut!</p>
+        
+        <div class="contact-info">
+            <div class="contact-item">
+                <span style="font-size: 2rem;">📧</span>
+                <div>
+                    <h4>Email</h4>
+                    <p>siega@unika.ac.id</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span style="font-size: 2rem;">📱</span>
+                <div>
+                    <h4>WhatsApp</h4>
+                    <p>+62 812-3456-7890</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span style="font-size: 2rem;">📍</span>
+                <div>
+                    <h4>Alamat</h4>
+                    <p>Jl. Pawiyatan Luhur IV/1<br>Semarang, Jawa Tengah</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="social-links">
+            <a href="https://instagram.com/siega_unika" target="_blank" class="social-btn">📷</a>
+            <a href="#" class="social-btn">🌐</a>
+            <a href="#" class="social-btn">📘</a>
+        </div>
+        
+        <div style="margin-top: 3rem;">
+            <a href="#contact" class="btn btn-primary" style="font-size: 1.2rem; padding: 1.2rem 3rem;">📝 Daftar Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 SIEGA - Universitas Katolik Soegijapranata. All Rights Reserved.</p>
+        <p style="margin-top: 0.5rem; opacity: 0.8;">Sistem Informasi · E-Commerce · Game Teknologi · Akuntansi Sistem Informasi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
